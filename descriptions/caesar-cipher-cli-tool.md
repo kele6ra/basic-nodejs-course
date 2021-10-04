@@ -12,14 +12,14 @@ Config is a string with pattern `{XY(-)}n`, where:
   * `X` is a cipher mark:
     * `C` is for Caesar cipher
     * `A` is for Atbash cipher
-    * `К` is for ROT-13 cipher
+    * `R` is for ROT-13 cipher
   * `Y` is flag of encoding or decoding (mandatory for Caesar cipher and ROT-13 cipher and should not be passed Atbash cipher)
     * `1` is for encoding
     * `0` is for decoding
 2.  **-i, --input**: an input file
 3.  **-o, --output**: an output file
 
-For example, config `"C1-C1-K0-A"` means "encode by Caesar cipher => encode by Caesar cipher => decode by ROT-13 => use Atbash"
+For example, config `"C1-C1-R0-A"` means "encode by Caesar cipher => encode by Caesar cipher => decode by ROT-13 => use Atbash"
 
 ## Details:
 
@@ -38,7 +38,7 @@ For example, config `"C1-C1-K0-A"` means "encode by Caesar cipher => encode by C
 **Usage example:**  
 
 ```bash
-$ node my_caesar_cli -c "C1-C1-K0-A" -i "./input.txt" -o "./output.txt"
+$ node my_caesar_cli -c "C1-C1-R0-A" -i "./input.txt" -o "./output.txt"
 ```
 
 > input.txt
