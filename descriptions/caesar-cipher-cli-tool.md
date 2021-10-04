@@ -5,7 +5,7 @@
 * [Atbash cipher](https://en.wikipedia.org/wiki/Atbash)
 * [ROT-13](https://en.wikipedia.org/wiki/ROT13)
 
-CLI tool should accept 4 options (short alias and full name):
+CLI tool should accept 3 options (short alias and full name):
 
 1.  **-c, --config**: config for ciphers
 Config is a string with pattern `{XY(-)}n`, where:
