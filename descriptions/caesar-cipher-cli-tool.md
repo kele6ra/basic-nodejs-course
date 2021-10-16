@@ -46,3 +46,33 @@ $ node my_caesar_cli -c "C1-C1-R0-A" -i "./input.txt" -o "./output.txt"
 
 > output.txt
 > `Rdcs cs sgitgr. Ygsskeg kjwqr "_" smyjwz!`
+
+```bash
+$ node my_caesar_cli -c "C1-C0-A-R1-R0-A-R0-R0-C1-A" -i "./input.txt" -o "./output.txt"
+```
+
+> input.txt
+> `This is secret. Message about "_" symbol!`
+
+> output.txt
+> `Frqg qg guwhuf. Muggysu yxkef "_" gamxkn!`
+
+```bash
+$ node my_caesar_cli -c "A-A-A-R1-R0-R0-R0-C1-C1-A" -i "./input.txt" -o "./output.txt"
+```
+
+> input.txt
+> `This is secret. Message about "_" symbol!`
+
+> output.txt
+> `Rfgq gq qcapcr. Kcqqyec yzmsr "_" qwkzmj!`
+
+```bash
+$ node my_caesar_cli -c "C1-R1-C0-C0-A-R0-R1-R1-A-C1" -i "./input.txt" -o "./output.txt"
+```
+
+> input.txt
+> `This is secret. Message about "_" symbol!`
+
+> output.txt
+> `This is secret. Message about "_" symbol!`
