@@ -14,11 +14,11 @@ You can generate a new repository with the same directory structure and files as
 * [Description](./descriptions/caesar-cipher-cli-tool.md)
 * [Cross-check criteria](./cross-check/caesar-cipher-cli-tool.md)
 
-### Task 2. Express REST service
+### Task 2. Testing
 
-* Execute in: **template**
-* [Description](./descriptions/express-rest-service.md)
-* [Cross-check criteria](./cross-check/express-rest-service.md)
+* Execute in: **private repository (from 1st task)**
+* [Description](./descriptions/testing.md)
+* [Cross-check criteria](./cross-check/testing.md)
 
 ### Task 3. Debug in Node.js
 
