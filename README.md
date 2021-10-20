@@ -20,59 +20,54 @@ You can generate a new repository with the same directory structure and files as
 * [Description](./descriptions/testing.md)
 * [Cross-check criteria](./cross-check/testing.md)
 
-### Task 3. Debug in Node.js
+### Task 3. In-memory CRU API
 
 * Execute in: **private repository**
-* [Description](./descriptions/debug-nodejs.md)
-* [Cross-check criteria](./cross-check/debug-nodejs.md)
+* [Description](./descriptions/in-memory-crud.md)
+* [Cross-check criteria](./cross-check/in-memory-crud.md)
 
-### Task 4. Typescript basics
+### Task 4. REST Service
+* Execute in: **template**
+* [Description](./descriptions/express-rest-service.md)
+* [Cross-check criteria](./cross-check/express-rest-service.md)
+
+### Task 5. Typescript basics
 
 * Execute in: **template**
 * [Description](./descriptions/typescript-basics.md)
 * [Cross-check criteria](./cross-check/typescript-basics.md)
 
-### Task 5. Logging & Error Handling
+### Task 6. Logging & Error Handling
 
 * Execute in: **template**
 * [Description](./descriptions/logging-error-handling.md)
 * [Cross-check criteria](./cross-check/logging-error-handling.md)
 
-### Task 6. Docker basics
+### Task 7. Docker basics
 
 * Execute in: **template**
 * [Description](./descriptions/docker-basics.md)
 * [Cross-check criteria](./cross-check/docker-basics.md)
 
-### Task 7. PostgreSQL & Typeorm
+### Task 8. PostgreSQL & Typeorm
 
 * Execute in: **template**
 * [Description](./descriptions/postgresql-typeorm.md)
 * [Cross-check criteria](./cross-check/postgresql-typeorm.md)
 
-### Task 8. Authentification & JWT
+### Task 9. Authentification & JWT
 
 * Execute in: **template**
 * [Description](./descriptions/authentification-jwt.md)
 * [Cross-check criteria](./cross-check/authentification-jwt.md)
 
-### Task 9. NestJS
+### Task 10. NestJS
 
 * Execute in: **template**
 * [Description](./descriptions/nestjs.md)
 * [Cross-check criteria](./cross-check/nestjs.md)
 
 ---
-
-## Tasks execution schemas
-
-### Execution in private repository
-
-![repository schema](./assets/schema-repo.PNG)
-
-### Execution in repository created from template
-
-![template schema](./assets/schema-template.JPG)
 
 ## Hints
 
