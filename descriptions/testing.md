@@ -18,19 +18,3 @@ e.g. input: `node my_caesar_cli -c C1-C1-A-R0 -c C0` result: `Error: You provide
 ### Success scenarios
 1) Input: User passes correct sequence of symbols as argument for --config that matches regular expression; Result: test passed
 2) Take cipher usage scenarios from [first task description](https://github.com/AlreadyBored/basic-nodejs-course/blob/review-2021Q4/descriptions/caesar-cipher-cli-tool.md) usage examples.
-
-## Minimal acceptance criteria
-- Installed and used Jest framework (+0)
-- Tests coverage is up to 70% (+20)
-- All scenarios mentioned above are covered (+20)
-- (+20)
-
-## Additional acceptance criteria
-- Used mock objects to test code (+20)
-- Tests coverage is up to 90% (+20)
-
-## Penalty points
-- 
-
-
-**MAX TOTAL SCORE: 100**
