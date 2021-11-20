@@ -23,8 +23,8 @@ You can generate a new repository with the same directory structure and files as
 ### Task 3. In-memory CRU API
 
 * Execute in: **private repository**
-* [Description](./descriptions/in-memory-crud.md)
-* [Cross-check criteria](./cross-check/in-memory-crud.md)
+* [Description](./descriptions/simple-crud-api.md)
+* [Cross-check criteria](./cross-check/simple-crud-api.md)
 
 ### Task 4. REST Service
 * Execute in: **template**
