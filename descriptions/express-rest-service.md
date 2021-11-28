@@ -1,8 +1,8 @@
-# Express REST service
+# REST service
 
 Let's try to create a competitor for [Trello](https://trello.com/)!
 
-**Create an [Express](https://expressjs.com) application, the application should operate with the following resources:**
+**Create an application, the application should operate with the following resources:**
 
 - `User` (with attributes):
   ```javascript
@@ -65,7 +65,8 @@ Let's try to create a competitor for [Trello](https://trello.com/)!
 
 8. Service should listen on PORT `4000`.
 
+9. You can try to refactor template using framework that differs from Express.js and Nest.js
+
 **Hints**
 
-* To test the service [CRUD](https://en.wikipedia.org/wiki/Create,_read,_update_and_delete) methods you should use [Swagger](https://swagger.io/) html (see [README.md](https://github.com/rolling-scopes-school/nodejs-course-template/blob/master/README.md#running-application)).
-* To generate all entities “id”s use [uuid](https://www.npmjs.com/package/uuid) package.
+* To generate all entities `id`s use [uuid](https://www.npmjs.com/package/uuid) package or [Node.js analogue](https://nodejs.org/dist/latest-v16.x/docs/api/crypto.html#cryptorandomuuidoptions).
