@@ -1,16 +1,10 @@
 # Typescript basics
 
-Задание состоит из 2 частей, выполнение первой части отмечается коммитом с соответствующим тегом ([немного инфо](https://git-scm.com/book/ru/v2/%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D1%8B-Git-%D0%A0%D0%B0%D0%B1%D0%BE%D1%82%D0%B0-%D1%81-%D1%82%D0%B5%D0%B3%D0%B0%D0%BC%D0%B8)) .
+Your task if to migrate your project from Javascript to Typescript
 
-**1 часть (максимум 60 баллов):**
-
-Дополнить пользовательские функции в коде [JSDoc](https://www.npmjs.com/package/jsdoc)-комментариями, содержащими краткое описание работы функции, а также описание входных параметров (тип, значение) и возвращаемого значения (если применимо). Контроллеры и другие сущности помимо пользовательских функций описывать не обязательно.
-
-**2 часть (максимум 190 баллов):**
-
-Осуществить миграцию с **Javascript** на **Typescript**
-* Все файлы в папке `src` должны иметь расширение `.ts`
-* Не должно быть ошибок компилятора и/или линтера
-* В проекте должны использоваться файлы `eslintrc.json` и `tsconfig.json`
-* Не допускается использование типов `any`, `unknown`
-* Миграция на **Typescript** не должна приводить к тому, что работоспособность приложения будет нарушена
+* All code files in `src` folder must have `.ts` extension
+* There shouldn't be errors of TS compiler and linter
+* `eslintrc` and `tsconfig` should be used in the project
+* Type `any` is not permitted
+* Migration to **Typescript** should not break application functionality
+* You can also add [TSDoc](https://www.npmjs.com/package/@microsoft/tsdoc) annotations that contain short functionality description as well as description of its arguments (type, description) and its returned value (if applicable)
